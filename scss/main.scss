@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Fredoka&family=Inter:wght@200&family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,700&family=Montserrat:ital,wght@0,100;0,400;0,600;1,100;1,200;1,300;1,500&family=Poppins:ital,wght@0,100;0,700;1,100;1,200;1,500;1,600&family=Roboto:ital@1&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,600;1,200;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+// Color Declarations
+.greenColor {
+  color: #20c157;
+}
+.backgroundGreen {
+  background-color: #20c157 !important;
+}
+.whiteColor {
+  color: white;
+}
+.backgroundWhite {
+  background-color: white;
+}
+.backgroundNav {
+  background-color: #e8e9d7;
+}
+.container {
+  margin: 0 auto !important;
+  max-width: 80rem;
+}
+
+img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+// Header
+header {
+  .header {
+    h1 {
+      letter-spacing: 2px;
+    }
+    .signUp {
+      font-size: 1.5rem;
+    }
+  }
+}
+// main styling
+main {
+  .hero {
+    background: url(../img/fashion.jpeg);
+    background-size: cover;
+    background-position: 100%;
+    nav {
+      background: #e8e9d7aa;
+
+      .nav-listing {
+        width: 100%;
+        li {
+          .active {
+            color: white !important;
+            background: #20c157 !important;
+          }
+          a {
+            color: #20c157;
+
+            &:hover {
+              color: white;
+              background: #20c157;
+            }
+          }
+        }
+      }
+    }
+    .carousel {
+      button {
+        background-color: #20c157 !important;
+      }
+
+      &-item {
+        h1 {
+          padding: 6rem 0 !important;
+          font-size: 3rem;
+
+          @media screen and (max-width: 760px) {
+            font-size: 1.5rem;
+            padding: 3rem 0 !important;
+          }
+        }
+      }
+    }
+  }
+  .about {
+    @media screen and (min-width: 900px) {
+      margin-top: 10rem !important;
+    }
+    .mt-n1 {
+      margin-top: -7rem !important;
+      @media screen and (max-width: 900px) {
+        margin-top: 0 !important;
+      }
+    }
+    .container-fluid,
+    [class^="col"] {
+      padding: 0 !important;
+    }
+    .img-container {
+      img {
+        height: 100% !important;
+        width: 100% !important;
+      }
+    }
+
+    .img-about {
+      background: #e8e9d7;
+      &-1 {
+        padding: 2rem 3rem !important;
+      }
+      p {
+        color: black;
+      }
+      a {
+        background: #20c157;
+        color: white;
+      }
+      &-2 {
+        padding: 4rem 3rem !important;
+      }
+    }
+    .row-3,
+    .row-4,
+    .row-2 {
+      margin-top: 6rem;
+    }
+    .row-2 {
+      @media screen and (max-width: 760px) {
+        .img-2 {
+          width: 50% !important;
+        }
+      }
+    }
+    .row-4 {
+      .col-lg-4 {
+        padding: 0 0.8rem !important;
+      }
+      .img-about {
+        background: none;
+        h4 {
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}
+// Footer
+.footer {
+  background: #e8e9d7;
+  h2 {
+    letter-spacing: 3px;
+  }
+  .container,
+  .footer-contact,
+  input {
+    border-color: #20c157 !important;
+  }
+  .form {
+    input,
+    textarea {
+      outline: none;
+      border: 1px solid #d0d493 !important;
+      background-color: #e8e9d7;
+    }
+    textarea {
+      width: 100% !important;
+      padding: 0.7rem;
+      min-height: 100px;
+    }
+    .submit {
+      transition: all 0.3s;
+      &:hover {
+        background-color: #544d4d !important;
+      }
+    }
+  }
+  .footer-media-icons {
+    gap: 1rem !important;
+
+    img {
+      transition: all 0.3s;
+      &:hover {
+        background: #e8e9d7;
+      }
+    }
+  }
+}

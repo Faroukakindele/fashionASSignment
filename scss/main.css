@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Fredoka&family=Inter:wght@200&family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,700&family=Montserrat:ital,wght@0,100;0,400;0,600;1,100;1,200;1,300;1,500&family=Poppins:ital,wght@0,100;0,700;1,100;1,200;1,500;1,600&family=Roboto:ital@1&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,600;1,200;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.greenColor {
+  color: #20c157;
+}
+
+.backgroundGreen {
+  background-color: #20c157 !important;
+}
+
+.whiteColor {
+  color: white;
+}
+
+.backgroundWhite {
+  background-color: white;
+}
+
+.backgroundNav {
+  background-color: #e8e9d7;
+}
+
+.container {
+  margin: 0 auto !important;
+  max-width: 80rem;
+}
+
+img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+header .header h1 {
+  letter-spacing: 2px;
+}
+
+header .header .signUp {
+  font-size: 1.5rem;
+}
+
+main .hero {
+  background: url(../img/fashion.jpeg);
+  background-size: cover;
+  background-position: 100%;
+}
+
+main .hero nav {
+  background: #e8e9d7aa;
+}
+
+main .hero nav .nav-listing {
+  width: 100%;
+}
+
+main .hero nav .nav-listing li .active {
+  color: white !important;
+  background: #20c157 !important;
+}
+
+main .hero nav .nav-listing li a {
+  color: #20c157;
+}
+
+main .hero nav .nav-listing li a:hover {
+  color: white;
+  background: #20c157;
+}
+
+main .hero .carousel button {
+  background-color: #20c157 !important;
+}
+
+main .hero .carousel-item h1 {
+  padding: 6rem 0 !important;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 760px) {
+  main .hero .carousel-item h1 {
+    font-size: 1.5rem;
+    padding: 3rem 0 !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  main .about {
+    margin-top: 10rem !important;
+  }
+}
+
+main .about .mt-n1 {
+  margin-top: -7rem !important;
+}
+
+@media screen and (max-width: 900px) {
+  main .about .mt-n1 {
+    margin-top: 0 !important;
+  }
+}
+
+main .about .container-fluid,
+main .about [class^="col"] {
+  padding: 0 !important;
+}
+
+main .about .img-container img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+main .about .img-about {
+  background: #e8e9d7;
+}
+
+main .about .img-about-1 {
+  padding: 2rem 3rem !important;
+}
+
+main .about .img-about p {
+  color: black;
+}
+
+main .about .img-about a {
+  background: #20c157;
+  color: white;
+}
+
+main .about .img-about-2 {
+  padding: 4rem 3rem !important;
+}
+
+main .about .row-3,
+main .about .row-4,
+main .about .row-2 {
+  margin-top: 6rem;
+}
+
+@media screen and (max-width: 760px) {
+  main .about .row-2 .img-2 {
+    width: 50% !important;
+  }
+}
+
+main .about .row-4 .col-lg-4 {
+  padding: 0 0.8rem !important;
+}
+
+main .about .row-4 .img-about {
+  background: none;
+}
+
+main .about .row-4 .img-about h4 {
+  letter-spacing: 2px;
+}
+
+.footer {
+  background: #e8e9d7;
+}
+
+.footer h2 {
+  letter-spacing: 3px;
+}
+
+.footer .container,
+.footer .footer-contact,
+.footer input {
+  border-color: #20c157 !important;
+}
+
+.footer .form input,
+.footer .form textarea {
+  outline: none;
+  border: 1px solid #d0d493 !important;
+  background-color: #e8e9d7;
+}
+
+.footer .form textarea {
+  width: 100% !important;
+  padding: 0.7rem;
+  min-height: 100px;
+}
+
+.footer .form .submit {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer .form .submit:hover {
+  background-color: #544d4d !important;
+}
+
+.footer .footer-media-icons {
+  gap: 1rem !important;
+}
+
+.footer .footer-media-icons img {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer .footer-media-icons img:hover {
+  background: #e8e9d7;
+}
+/*# sourceMappingURL=main.css.map */
