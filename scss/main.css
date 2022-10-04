@@ -10,6 +10,12 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+@media screen and (max-width: 350px) {
+  .w-50 {
+    width: 80% !important;
+  }
+}
+
 .greenColor {
   color: #20c157;
 }
@@ -32,7 +38,7 @@ body {
 
 .container {
   margin: 0 auto !important;
-  max-width: 80rem;
+  max-width: 75rem !important;
 }
 
 img {
@@ -86,9 +92,13 @@ main .hero .carousel-item h1 {
   }
 }
 
-@media screen and (min-width: 900px) {
+main .about {
+  margin-top: 10rem !important;
+}
+
+@media screen and (max-width: 768px) {
   main .about {
-    margin-top: 10rem !important;
+    margin-top: 3rem !important;
   }
 }
 
@@ -96,7 +106,7 @@ main .about .mt-n1 {
   margin-top: -7rem !important;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   main .about .mt-n1 {
     margin-top: 0 !important;
   }

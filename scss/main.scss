@@ -4,9 +4,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Source Sans Pro", sans-serif;
+}
+@media screen and (max-width: 350px) {
+  .w-50 {
+    width: 80% !important;
+  }
 }
 // Color Declarations
 .greenColor {
@@ -26,7 +30,7 @@ body {
 }
 .container {
   margin: 0 auto !important;
-  max-width: 80rem;
+  max-width: 75rem !important;
 }
 
 img {
@@ -88,12 +92,14 @@ main {
     }
   }
   .about {
-    @media screen and (min-width: 900px) {
-      margin-top: 10rem !important;
+    margin-top: 10rem !important;
+    @media screen and(max-width:768px) {
+      margin-top: 3rem !important;
     }
     .mt-n1 {
       margin-top: -7rem !important;
-      @media screen and (max-width: 900px) {
+
+      @media screen and(max-width:768px) {
         margin-top: 0 !important;
       }
     }
