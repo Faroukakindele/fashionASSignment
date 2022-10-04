@@ -48,9 +48,6 @@ header {
 // main styling
 main {
   .hero {
-    background: url(../img/fashion.jpeg);
-    background-size: cover;
-    background-position: 100%;
     nav {
       background: #e8e9d7aa;
 
@@ -132,13 +129,13 @@ main {
     .row-2 {
       margin-top: 6rem;
     }
-    .row-2 {
-      @media screen and (max-width: 760px) {
-        .img-2 {
-          width: 50% !important;
-        }
-      }
-    }
+    // .row-2 {
+    //   @media screen and (max-width: 760px) {
+    //     .img-2 {
+    //       width: 0% !important;
+    //     }
+    //   }
+    // }
     .row-4 {
       .col-lg-4 {
         padding: 0 0.8rem !important;
@@ -192,4 +189,23 @@ main {
       }
     }
   }
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  border-color: #20c157 !important;
+}
+.navbar-toggler-icon {
+}
+
+@media screen and (max-width: 760px) {
+  .text-lg-center {
+    text-align: left !important;
+  }
+}
+.carouselBackground {
+  background: url(../img/fashion.jpeg);
+  background-size: cover;
+  background-position: 100%;
 }

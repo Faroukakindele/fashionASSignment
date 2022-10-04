@@ -48,12 +48,6 @@ header .header .signUp {
   font-size: 1.5rem;
 }
 
-main .hero {
-  background: url(../img/fashion.jpeg);
-  background-size: cover;
-  background-position: 100%;
-}
-
 main .hero nav {
   background: #e8e9d7aa;
 }
@@ -145,12 +139,6 @@ main .about .row-2 {
   margin-top: 6rem;
 }
 
-@media screen and (max-width: 760px) {
-  main .about .row-2 .img-2 {
-    width: 50% !important;
-  }
-}
-
 main .about .row-4 .col-lg-4 {
   padding: 0 0.8rem !important;
 }
@@ -210,5 +198,26 @@ main .about .row-4 .img-about h4 {
 
 .footer .footer-media-icons img:hover {
   background: #e8e9d7;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.navbar-toggler {
+  border-color: #20c157 !important;
+}
+
+@media screen and (max-width: 760px) {
+  .text-lg-center {
+    text-align: left !important;
+  }
+}
+
+.carouselBackground {
+  background: url(../img/fashion.jpeg);
+  background-size: cover;
+  background-position: 100%;
 }
 /*# sourceMappingURL=main.css.map */
